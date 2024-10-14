@@ -8,7 +8,7 @@ void multiplicationTable(int n) {
         for (int j = 1; j <= n; ++j) {
             cout << i * j << "\t"; // 每個結果用 tab 分隔
         }
-        cout << endl; // 換行
+        cout << edl; // 換行
     }
 }
 
@@ -73,3 +73,4 @@ int main() {
 
     return 0;
 }
+
